@@ -74,7 +74,7 @@ $br-large: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-size: 2.2rem;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.05em;
 }
 
@@ -84,7 +84,7 @@ $br-large: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.05em;
 }
 
@@ -94,7 +94,7 @@ $br-large: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.05em;
 }
 
@@ -125,15 +125,18 @@ $br-large: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: $space-large;
 }
 
 .content {
   width: 100%;
-  max-width: $max-width;
+  min-width: 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  padding: $space-huge;
   row-gap: $space-large;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .title {
@@ -152,39 +155,6 @@ $br-large: 16px;
 /* Mobile Styles */
 
 @media only screen and (max-width: $mob-width) {
-
-  .container {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: $space-small;
-  }
-
-  /* Text Styles */
-
-  .head1 {
-    font-weight: 900;
-    font-size: 2rem;
-  }
-
-  .head2 {
-    font-weight: 600;
-    font-size: 1.6rem;
-  }
-
-  .head3 {
-    font-weight: 300;
-    font-size: 1.4rem;
-  }
-
-  .body1 {
-    font-weight: 100;
-    font-size: 1rem;
-  }
-
-  .body2 {
-    font-weight: 100;
-    font-size: 0.9rem;
-  }
 
   /* Input Styles */
 

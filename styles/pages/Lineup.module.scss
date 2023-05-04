@@ -1,0 +1,66 @@
+@import '/styles/Styles.scss';
+
+/* Root Styles */
+
+.root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $space-large;
+}
+
+/* Container Styles */
+
+.content {
+  flex: 1;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: $space-medium;
+}
+
+/* Legend Styles */
+
+#keys {
+  padding: $space-medium;
+  border-radius: $br-medium;
+  background-color: $white-opac-1;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  gap: $space-medium;
+
+  #emoji {
+    font-size: 1.2rem;
+  }
+}
+
+/* Artist Styles */
+
+#artists {
+  gap: $space-large;
+}
+
+#artist {
+  display: flex;
+  flex-direction: column;
+  padding: $space-medium;
+  border-radius: $br-medium;
+  background-color: $white-opac-1;
+  gap: $space-medium;
+}
+
+#name {
+  font-size: 1.2rem;
+}
+
+#selected {
+  background-color: $white-opac-2;
+}
