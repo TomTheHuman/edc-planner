@@ -18,7 +18,7 @@ $ui-teal: #41EAD4;
 $ui-white: #FFFFFF;
 $ui-black: #273140;
 $ui-pink: #FF206E;
-$ui-yellow: #FBFF12;
+$ui-orange: #ffb412;
 
 // Transparent
 $transparent: rgba(0, 0, 0, 0);
@@ -45,6 +45,21 @@ $black-opac-7: rgba(0, 0, 0, 0.7);
 $black-opac-8: rgba(0, 0, 0, 0.8);
 $black-opac-9: rgba(0, 0, 0, 0.9);
 
+/* Gradients */
+
+$grad-teal: linear-gradient(
+  $ui-white,
+  $ui-teal 70%
+);
+$grad-pink: linear-gradient(
+  $ui-white,
+  $ui-pink 70%
+);
+$grad-yellow: linear-gradient(
+  $ui-white,
+  $ui-orange 70%
+);
+
 /* Spacing */
 
 $space-small: 4px;
@@ -70,7 +85,10 @@ $br-large: 16px;
 
 // Intended to use with h1
 .head1 {
-  color: $ui-pink;
+  background: $grad-pink;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-size: 2.2rem;
@@ -80,9 +98,12 @@ $br-large: 16px;
 
 // Intended to use with h2
 .head2 {
-  color: $ui-teal;
+  background: $grad-teal;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 2rem;
   line-height: 1.1;
   letter-spacing: 0.05em;
@@ -90,9 +111,12 @@ $br-large: 16px;
 
 // Intended to use with h3
 .head3 {
-  color: $ui-yellow;
+  background: $grad-yellow;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 900;
   font-size: 1.8rem;
   line-height: 1.1;
   letter-spacing: 0.05em;
