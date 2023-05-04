@@ -22,8 +22,7 @@
   "plugins": [
     "react",
     "import",
-    "@typescript-eslint",
-    "prettier"
+    "@typescript-eslint"
   ],
   "rules": {
     "react/jsx-filename-extension": [
@@ -33,14 +32,35 @@
           ".js",
           ".jsx",
           ".ts",
-          ".tsx"
+          ".tsx",
+          ".json"
         ]
       }
     ],
     "react/require-default-props": 0,
     "react/prop-types": 0,
-    "react/no-array-index-key": 0,
+    "linebreak-style": "off",
+    "require-jsdoc": 0,
     "react/jsx-props-no-spreading": 0,
-    "linebreak-style": "off"
+    "react/forbid-prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "react/no-did-update-set-state": 0,
+    "react/no-array-index-key": 0,
+    "react/jsx-no-constructed-context-values": 0,
+    "react/function-component-definition": 0,
+    "react/no-unused-class-component-methods": 0,
+    "react/static-property-placement": ["error", "static public field"],
+    "@typescript-eslint/no-unused-expressions": 0,
+    "@typescript-eslint/space-before-blocks": 0,
+    "class-methods-use-this": 0,
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "no-console": [1, { "allow": ["warn", "error"] }],
+    "func-names": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/anchor-has-content": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-underscore-dangle": 0,
+    "import/no-named-as-default-member": 0,
+    "global-require": 0
   }
 }

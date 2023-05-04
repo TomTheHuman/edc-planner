@@ -1,0 +1,14 @@
+@import '/styles/Styles.scss';
+
+/* Root Styles */
+
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  padding: $space-large $space-huge;
+  background-color: $white-opac-1;
+}

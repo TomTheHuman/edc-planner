@@ -16,18 +16,21 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#284B63',
+      main: '#ffffff',
+      contrastText: '#000000',
     },
     secondary: {
-      main: '#3C6E71',
+      main: '#41EAD4',
+      contrastText: '#000000',
     },
     background: {
-      default: '#FFFFFF',
+      default: '#0A0A0A',
+      paper: '#1C1C1C',
     },
     text: {
-      secondary: '#353535',
-      disabled: 'rgba(76,76,76,0.69)',
-      primary: '#000000',
+      secondary: '#d0d0d0',
+      disabled: '#aaaaaa',
+      primary: '#ffffff',
     },
     error: {
       main: '#D7263D',
@@ -36,12 +39,12 @@ const theme = createTheme({
       main: '#F46036',
     },
     success: {
-      main: '#1B998B',
+      main: '#FF206E',
     },
     info: {
-      main: '#2E294E',
+      main: '#FBFF12',
     },
-    divider: '#D9D9D9',
+    divider: '#ffcc48',
   },
   components: {
     MuiButton: {
