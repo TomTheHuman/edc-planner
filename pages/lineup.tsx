@@ -35,6 +35,7 @@ function Artist(props: any): JSX.Element {
           <Button
             key={option}
             id={selected === i ? sx.selected : ''}
+            className={sx.option}
             onClick={() => setSelected(i)}
           >
             {option}
