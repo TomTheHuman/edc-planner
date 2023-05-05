@@ -49,15 +49,15 @@ $black-opac-9: rgba(0, 0, 0, 0.9);
 
 $grad-teal: linear-gradient(
   $ui-white,
-  $ui-teal 70%
+  $ui-teal 60%
 );
 $grad-pink: linear-gradient(
   $ui-white,
-  $ui-pink 70%
+  $ui-pink 60%
 );
 $grad-yellow: linear-gradient(
   $ui-white,
-  $ui-orange 70%
+  $ui-orange 60%
 );
 
 /* Spacing */
@@ -93,7 +93,6 @@ $br-large: 16px;
   font-weight: 900;
   font-size: 2.2rem;
   line-height: 1.2;
-  letter-spacing: 0.05em;
 }
 
 // Intended to use with h2
@@ -106,7 +105,6 @@ $br-large: 16px;
   font-weight: 900;
   font-size: 2rem;
   line-height: 1.2;
-  letter-spacing: 0.05em;
 }
 
 // Intended to use with h3
@@ -119,7 +117,22 @@ $br-large: 16px;
   font-weight: 900;
   font-size: 1.8rem;
   line-height: 1.2;
-  letter-spacing: 0.05em;
+}
+
+.sub1 {
+  color: $ui-white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.sub2 {
+  color: $ui-white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 1.2;
 }
 
 // Intended to use with p
@@ -158,7 +171,7 @@ $br-large: 16px;
   min-height: 0;
   display: flex;
   flex-direction: column;
-  row-gap: $space-large;
+  gap: $space-huge;
   overflow-y: auto;
   overflow-x: hidden;
 }

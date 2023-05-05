@@ -8,7 +8,7 @@ import { lineup } from '../utils/Info';
 import sx from '../styles/pages/Lineup.module.scss';
 
 function Artist(props: any): JSX.Element {
-  const { artist } = props;
+  const { act } = props;
   const ref = useRef<HTMLDivElement>(null);
   const [selected, setSelected] = useState<number>(-1);
 
@@ -17,14 +17,14 @@ function Artist(props: any): JSX.Element {
   return (
     <div
       ref={ref}
-      id={sx.artist}
+      id={sx.act}
       className={sx.row}
     >
       <p
         id={sx.name}
         className={sx.body1}
       >
-        {artist}
+        {act}
       </p>
       <ButtonGroup
         fullWidth
@@ -37,6 +37,7 @@ function Artist(props: any): JSX.Element {
             id={selected === i ? sx.selected : ''}
             className={sx.option}
             onClick={() => setSelected(i)}
+            style={{ fontSize: '1.2rem' }}
           >
             {option}
           </Button>
@@ -67,18 +68,13 @@ function Lineup(): JSX.Element {
             If you invite your friends, their ratings will be paired with
             yours to generate a list to help you plan your time at EDC.
           </p>
-        </div>
-        <div
-          id={sx.legend}
-          className={sx.row}
-        >
-          <h3 className={sx.head3}>
-            Legend
-          </h3>
           <div
             id={sx.keys}
             className={sx.row}
           >
+            <p className={sx.sub1}>
+              Legend
+            </p>
             <div className={sx.key}>
               <p
                 id={sx.emoji}
@@ -137,8 +133,9 @@ function Lineup(): JSX.Element {
             </div>
           </div>
         </div>
+        <Divider />
         <div
-          id={sx.artists}
+          id={sx.acts}
           className={sx.row}
         >
           <h3 className={sx.head3}>
@@ -146,8 +143,8 @@ function Lineup(): JSX.Element {
           </h3>
           {lineup.map((item) => (
             <Artist
-              key={item.artist}
-              artist={item.artist}
+              key={item.name}
+              act={item.name}
             />
           ))}
         </div>

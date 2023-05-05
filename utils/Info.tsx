@@ -22,2192 +22,2843 @@ export const landing = {
   },
 };
 
-export const lineup: { artist: string, days: string[], stage: string[] }[] = [
+interface ILineup {
+  name: string;
+  stages: string[];
+  sets: Array<{
+    start: string;
+    end: string;
+  }>
+}
+
+export const lineup: ILineup[] = [
   {
-    artist: 'ABOVE & BEYOND',
-    stage: [
-      'Circuit Grounds',
+    name: '12TH PLANET',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ALISON WONDERLAND',
-    stage: [
-      'Kinetic Field',
+    name: '8KAYS',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ANABEL ENGLUND',
-    stage: [
-      'Circuit Grounds',
+    name: '999999999',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ANDY C',
-    stage: [
-      'Basspod',
+    name: 'A HUNDRED DRUMS',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ARMNHMR',
-    stage: [
-      'Cosmic Meadow',
+    name: 'ABANA',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ARTBAT',
-    stage: [
-      'Neon Garden',
+    name: 'ABOVE & BEYOND',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'AZZECCA',
-    stage: [
-      'Neon Garden',
+    name: 'ACRAZE',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BARELY ALIVE',
-    stage: [
-      'Basspod',
+    name: 'ACRAZE B2B NOIZU',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BISCITS B2B MARTIN IKIN',
-    stage: [
-      'Stereo Bloom',
+    name: 'ADRENALIZE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BLASTOYZ',
-    stage: [
-      'Quantum Valley',
+    name: 'AFROJACK (SUNRISE SET)',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BLEU CLAIR',
-    stage: [
-      'Stereo Bloom',
+    name: 'AK SPORTS',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BORN DIRTY',
-    stage: [
-      'Stereo Bloom',
+    name: 'ALISON WONDERLAND',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CAROLA',
-    stage: [
-      'Kinetic Field',
+    name: 'ALOK',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CHAMPAGNE DRIP',
-    stage: [
-      'Basspod',
+    name: 'ANABEL ENGLUND',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CLOVERDALE',
-    stage: [
-      'Stereo Bloom',
+    name: 'ANDEN',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'COSMIC GATE',
-    stage: [
-      'Quantum Valley',
+    name: 'ANDY C',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DA TWEEKAZ',
-    stage: [
-      'Wasteland',
+    name: 'ARMIN VAN BUUREN',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DAVID GUETTA',
-    stage: [
-      'Kinetic Field',
+    name: 'ARMNHMR',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DAVID MORALES',
-    stage: [
-      'Bionic Jungle',
+    name: 'ARTBAT',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DISCO DOM',
-    stage: [
-      'Bionic Jungle',
+    name: 'ATDUSK',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DISCO LINES',
-    stage: [
-      'Stereo Bloom',
+    name: 'AUDIOFREQ',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DJ ANIME',
-    stage: [
-      'Wasteland',
+    name: 'AZZECCA',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DJ ISAAC',
-    stage: [
-      'Wasteland',
+    name: 'BAGGI',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DR PHUNK',
-    stage: [
-      'Wasteland',
+    name: 'BARELY ALIVE',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DUKE DUMONT',
-    stage: [
-      'Circuit Grounds',
+    name: 'BEN NICKY PRESENTS EMOTIONAL HAVOC',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DUSTIN HUSAIN',
-    stage: [
-      'Quantum Valley',
+    name: 'BEN NICKY PRESENTS XTREME B2B SUB ZERO PROJECT',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ELI BROWN',
-    stage: [
-      'Neon Garden',
+    name: 'BEN UFO',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ELIMINATE',
-    stage: [
-      'Basspod',
+    name: 'BENSLEY B2B JUSTIN HAWKES',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'EPTIC',
-    stage: [
-      'Basspod',
+    name: 'BILLY GILLIES',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FALLEN B2B RICHTER with MC DINO',
-    stage: [
-      'Basspod',
+    name: 'BISCITS B2B MARTIN IKIN',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FERRY CORSTEN',
-    stage: [
-      'Quantum Valley',
+    name: 'BLACK TIGER SEX MACHINE',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FISHER',
-    stage: [
-      'Circuit Grounds',
+    name: 'BLANKE',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FRICTION',
-    stage: [
-      'Basspod',
+    name: 'BLASTOYZ',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FROSTTOP',
-    stage: [
-      'Cosmic Meadow',
+    name: 'BLEU CLAIR',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FUNTCASE',
-    stage: [
-      'Basspod',
+    name: 'BOOGIE T',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GALANTIS',
-    stage: [
-      'Kinetic Field',
+    name: 'BOOGIE T B2B DIRT MONKEY',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GRIZ',
-    stage: [
-      'Cosmic Meadow',
+    name: 'BORGORE B2B LEVEL UP',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HANA',
-    stage: [
-      'Quantum Valley',
+    name: 'BORIS BREJCHA',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HINT OF LAVENDER',
-    stage: [
-      'Neon Garden',
+    name: 'BORN DIRTY',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HUGEL',
-    stage: [
-      'Stereo Bloom',
+    name: 'BRENNAN HEART',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JAMES HYPE',
-    stage: [
-      'Kinetic Field',
-      'Cosmic Meadow',
-      'Stereo Bloom',
+    name: 'CAMDEN COX',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JEROME ISMA-AE',
-    stage: [
-      'Quantum Valley',
+    name: 'CAPOZZI',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KAIVON',
-    stage: [
-      'Cosmic Meadow',
+    name: 'CAROLA',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KILL SCRIPT',
-    stage: [
-      'Circuit Grounds',
+    name: 'CHAMPAGNE DRIP',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KREAM',
-    stage: [
-      'Kinetic Field',
+    name: 'CHANEY',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LADY SINCLAIR',
-    stage: [
-      'Bionic Jungle',
+    name: 'CHRIS LAKE',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LENNY DEE',
-    stage: [
-      'Wasteland',
+    name: 'CHRIS LORENZO',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LIL TEXAS',
-    stage: [
-      'Wasteland',
+    name: 'CID',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LOCO DICE B2B FISHER',
-    stage: [
-      'Neon Garden',
+    name: 'CID B2B SAGE ARMSTRONG',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LOUIE VEGA',
-    stage: [
-      'Bionic Jungle',
+    name: 'CLOVERDALE',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LOVEFINGERS + HEIDI LAWDEN',
-    stage: [
-      'Bionic Jungle',
+    name: 'CODE BLACK',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MAARTEN DE JONG',
-    stage: [
-      'Quantum Valley',
+    name: 'COONE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MALAA B2B WAX MOTIF',
-    stage: [
-      'Kinetic Field',
+    name: 'COSMIC GATE',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MARC V',
-    stage: [],
-    days: [
-      'friday',
+    name: 'D-STURB',
+    stages: [
+      'wasteLAND',
     ],
-  },
-  {
-    artist: 'MARSHMELLO',
-    stage: [
-      'Kinetic Field',
-    ],
-    days: [
-      'friday',
-    ],
-  },
-  {
-    artist: 'MATRODA & FRIENDS',
-    stage: [
-      'Stereo Bloom',
-    ],
-    days: [
-      'friday',
-    ],
-  },
-  {
-    artist: 'MATT FAX',
-    stage: [
-      'Quantum Valley',
-    ],
-    days: [
-      'friday',
-    ],
-  },
-  {
-    artist: 'MEDUZA',
-    stage: [
-      'Circuit Grounds',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
-    days: [
-      'friday',
-    ],
   },
   {
-    artist: 'MEMBA',
-    stage: [
-      'Cosmic Meadow',
+    name: 'DA TWEEKAZ',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MIKE DUNN',
-    stage: [
-      'Bionic Jungle',
+    name: 'DANNY DAZE',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MISS DRE',
-    stage: [
-      'Stereo Bloom',
+    name: 'DARREN STYLES',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'NOSTALGIX',
-    stage: [
-      'Cosmic Meadow',
+    name: 'DAVID GUETTA',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ODD MOB',
-    stage: [
-      'Stereo Bloom',
+    name: 'DAVID MORALES',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'OMAR SANTANA',
-    stage: [
-      'Wasteland',
+    name: 'DEADLY GUNS',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PATRICK TOPPING',
-    stage: [
-      'Neon Garden',
+    name: 'DEEPER PURPOSE',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PAUL DENTON',
-    stage: [
-      'Quantum Valley',
+    name: 'DENNIS FERRER',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PAULINE HERR',
-    stage: [
-      'Kinetic Field',
+    name: 'DEORRO',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PRETTY PINK',
-    stage: [
-      'Quantum Valley',
+    name: 'DIMENSION',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'REAPER',
-    stage: [
-      'Basspod',
+    name: 'DIONYSUS & YOSUF PRESENT: BIGGER, STRONGER, FASTER',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'RIOT TEN B2B JESSICA AUDIFFRED',
-    stage: [
-      'Basspod',
+    name: 'DISCO DOM',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SAID THE SKY',
-    stage: [
-      'Cosmic Meadow',
+    name: 'DISCO LINES',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SAN PACHO',
-    stage: [
-      'Stereo Bloom',
+    name: 'DJ ANIME',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SHEI',
-    stage: [
-      'Wasteland',
+    name: 'DJ ISAAC',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SIDEPIECE',
-    stage: [
-      'Kinetic Field',
+    name: 'DJ MINX',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SOUND RUSH',
-    stage: [
-      'Wasteland',
+    name: 'DOM DOLLA',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SULLIVAN KING B2B KAI WACHI',
-    stage: [
-      'Basspod',
+    name: 'DOMBRESKY',
+    stages: [
+      'kineticFIELD',
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'VINI VICI',
-    stage: [
-      'Circuit Grounds',
-      'Quantum Valley',
+    name: 'DR PHUNK',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'friday',
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WARFACE',
-    stage: [
-      'Wasteland',
+    name: 'DUKE DUMONT',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'YETEP',
-    stage: [
-      'Cosmic Meadow',
-    ],
-    days: [
-      'friday',
+    name: 'DUSTIN HUSAIN',
+    stages: [
+      'quantumVALLEY',
     ],
-  },
-  {
-    artist: '',
-    stage: [],
-    days: [
-      'friday',
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: '12TH PLANET',
-    stage: [
-      'Basspod',
+    name: 'ELI BROWN',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ACRAZE',
-    stage: [
-      'Circuit Grounds',
+    name: 'ELIMINATE',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'AFROJACK (SUNRISE SET)',
-    stage: [
-      'Circuit Grounds',
+    name: 'ELLEN ALLIEN',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'AK SPORTS',
-    stage: [
-      'Bionic Jungle',
+    name: 'ENAMOUR',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ALOK',
-    stage: [
-      'Kinetic Field',
+    name: 'EPTIC',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ATDUSK',
-    stage: [
-      'Quantum Valley',
+    name: 'EXCISION',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'AUDIOFREQ',
-    stage: [
-      'Wasteland',
+    name: 'EXCISION B2B DION TIMMER',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BEN NICKY PRESENTS EMOTIONAL HAVOC',
-    stage: [
-      'Quantum Valley',
+    name: 'FALLEN B2B RICHTER with MC DINO',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BEN UFO',
-    stage: [
-      'Bionic Jungle',
+    name: 'FALLON',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BILLY GILLIES',
-    stage: [
-      'Quantum Valley',
+    name: 'FERRECK DAWN',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BORIS BREJCHA',
-    stage: [
-      'Kinetic Field',
+    name: 'FERRY CORSTEN',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CAMDEN COX',
-    stage: [
-      'Stereo Bloom',
+    name: 'FISHER',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CHANEY',
-    stage: [
-      'Stereo Bloom',
+    name: 'FRAME (DECLAN JAMES & DECODER)',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CHRIS LAKE',
-    stage: [
-      'Kinetic Field',
+    name: 'FRANKY WAH',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CID B2B SAGE ARMSTRONG',
-    stage: [
-      'Cosmic Meadow',
+    name: 'FRED EVERYTHING',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'COONE',
-    stage: [
-      'Wasteland',
+    name: 'FRICTION',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DANNY DAZE',
-    stage: [
-      'Bionic Jungle',
+    name: 'FROSTTOP',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DARREN STYLES',
-    stage: [
-      'Wasteland',
+    name: 'FUNTCASE',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DIONYSUS & YOSUF PRESENT: BIGGER, STRONGER, FASTER',
-    stage: [
-      'Wasteland',
+    name: 'FURY B2B NIGHTSTALKER',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DOM DOLLA',
-    stage: [
-      'Circuit Grounds',
+    name: 'GALANTIS',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DOMBRESKY',
-    stage: [
-      'Kinetic Field',
-      'Stereo Bloom',
+    name: 'GAMMER B2B TWEEKACORE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'EXCISION B2B DION TIMMER',
-    stage: [
-      'Basspod',
+    name: 'GARETH EMERY',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FALLON',
-    stage: [
-      'Stereo Bloom',
+    name: 'GARETH EMERY PRESENTS DECADES',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FERRECK DAWN',
-    stage: [
-      'Stereo Bloom',
+    name: 'GENTLEMENS CLUB',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FURY B2B NIGHTSTALKER',
-    stage: [
-      'Basspod',
+    name: 'GIUSEPPE OTTAVIANI',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GARETH EMERY PRESENTS DECADES',
-    stage: [
-      'Quantum Valley',
+    name: 'GOODBOYS',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GIUSEPPE OTTAVIANI',
-    stage: [
-      'Quantum Valley',
+    name: 'GRIZ',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HABSTRAKT',
-    stage: [
-      'Cosmic Meadow',
+    name: 'GRIZTRONICS',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HOT SINCE 82',
-    stage: [
-      'Neon Garden',
+    name: 'HABSTRAKT',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HVDES',
-    stage: [
-      'Basspod',
+    name: 'HANA',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JAMES HYPE',
-    stage: [
-      'Kinetic Field',
-      'Cosmic Meadow',
-      'Stereo Bloom',
+    name: 'HANNAH WANTS',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'friday',
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JAMESJAMESJAMES',
-    stage: [
-      'Bionic Jungle',
+    name: 'HINT OF LAVENDER',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JOHN BRYARS',
-    stage: [
-      'Bionic Jungle',
+    name: 'HOL!',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JORZA',
-    stage: [
-      'Quantum Valley',
+    name: 'HOT SINCE 82',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JSTJR',
-    stage: [
-      'Cosmic Meadow',
+    name: 'HUGEL',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KASKADE',
-    stage: [
-      'Circuit Grounds',
+    name: 'HVDES',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KAYTRANADA',
-    stage: [
-      'Cosmic Meadow',
+    name: 'I HATE MODELS',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KETTAMA',
-    stage: [
-      'Bionic Jungle',
+    name: 'IMANU',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KOROLOVA',
-    stage: [
-      'Kinetic Field',
+    name: 'J. WORRA',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LADY FAITH',
-    stage: [
-      'Wasteland',
+    name: 'JADED',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LAYLA BENITEZ',
-    stage: [
-      'Neon Garden',
+    name: 'JAMES HYPE',
+    stages: [
+      'kineticFIELD',
+      'cosmicMEADOW',
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'THE MARTINEZ BROTHERS',
-    stage: [
-      'Neon Garden',
+    name: 'JAMESJAMESJAMES',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MAU P',
-    stage: [
-      'Stereo Bloom',
+    name: 'JEFF MILLS',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'METRIK B2B GRAFIX',
-    stage: [
-      'Basspod',
+    name: 'JEROME ISMA-AE',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MIANE',
-    stage: [
-      'Stereo Bloom',
+    name: 'JOHN BRYARS',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MICHAEL BIBI',
-    stage: [
-      'Neon Garden',
+    name: 'JORZA',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MOCHAKK',
-    stage: [
-      'Neon Garden',
+    name: 'JOSHWA',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MODAPIT',
-    stage: [
-      'Circuit Grounds',
+    name: 'JSTJR',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MOODY GOOD (THROWBACK SET)',
-    stage: [
-      'Basspod',
+    name: 'KAIVON',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MORTEN',
-    stage: [
-      'Kinetic Field',
+    name: 'KALEENA ZANDERS',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MS. MADA B2B BAKKE',
-    stage: [
-      'Neon Garden',
+    name: 'KASKADE',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'NALA',
-    stage: [
-      'Cosmic Meadow',
+    name: 'KASKADE REDUX',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'NETSKY',
-    stage: [
-      'Basspod',
+    name: 'KAYTRANADA',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'NOIZU',
-    stage: [
-      'Cosmic Meadow',
+    name: 'KETTAMA',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PACO OSUNA',
-    stage: [
-      'Neon Garden',
+    name: 'KILL SCRIPT',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'RAY VOLPE',
-    stage: [
-      'Basspod',
+    name: 'KOROLOVA',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'REBELION',
-    stage: [
-      'Wasteland',
+    name: 'KREAM',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SALUTE',
-    stage: [
-      'Bionic Jungle',
+    name: 'LADY FAITH',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SHERELLE',
-    stage: [
-      'Bionic Jungle',
+    name: 'LADY SINCLAIR',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SOFTEST HARD',
-    stage: [
-      'Wasteland',
+    name: 'LANE 8',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SONNY FODERA',
-    stage: [
-      'Cosmic Meadow',
-      'Stereo Bloom',
+    name: 'LAYLA BENITEZ',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SPACE LACES',
-    stage: [
-      'Basspod',
+    name: 'LE YOUTH',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SPENCER BROWN',
-    stage: [
-      'Circuit Grounds',
+    name: 'LENNY DEE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SUAE',
-    stage: [
-      'Wasteland',
+    name: 'LEVENKHAN',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SUB ZERO PROJECT',
-    stage: [
-      'Wasteland',
+    name: 'LIL TEXAS',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SUBTRONICS',
-    stage: [
-      'Circuit Grounds',
+    name: 'LOCO DICE B2B FISHER',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SULLIVAN KING',
-    stage: [
-      'Cosmic Meadow',
+    name: 'LOUD LUXURY',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SVDDEN DEATH: INTO THE INFERNO',
-    stage: [
-      'Basspod',
+    name: 'LOUIE VEGA',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TIËSTO',
-    stage: [
-      'Kinetic Field',
+    name: 'LOVEFINGERS + HEIDI LAWDEN',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TOM & COLLINS',
-    stage: [
-      'Stereo Bloom',
+    name: 'MAARTEN DE JONG',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TRIODE',
-    stage: [
-      'Quantum Valley',
+    name: 'MALAA B2B WAX MOTIF',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'VALENTINO KHAN',
-    stage: [
-      'Kinetic Field',
-    ],
-    days: [
-      'saturday',
+    name: 'MARC V',
+    stages: [],
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'VINI VICI',
-    stage: [
-      'Circuit Grounds',
-      'Quantum Valley',
+    name: 'MARSHMELLO',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'friday',
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WARFACE B2B D-STURB',
-    stage: [
-      'Wasteland',
+    name: 'MARSHMELLO B2B SVDDEN DEATH',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WESTEND',
-    stage: [
-      'Stereo Bloom',
+    name: 'MARTEN HØRGER',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WILL ATKINSON',
-    stage: [
-      'Quantum Valley',
+    name: 'MARTIN GARRIX',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WOOLI',
-    stage: [
-      'Basspod',
+    name: 'MATRODA & FRIENDS',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'YOSHI & RAZNER',
-    stage: [
-      'Quantum Valley',
+    name: 'MATT FAX',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ZEDD',
-    stage: [
-      'Kinetic Field',
+    name: 'MAU P',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ZEDS DEAD B2B CHASE & STATUS',
-    stage: [
-      'Cosmic Meadow',
+    name: 'MEDUZA',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'saturday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: '',
-    stage: [],
-    days: [
-      'friday',
-      'saturday',
+    name: 'MEMBA',
+    stages: [
+      'cosmicMEADOW',
     ],
-  },
-  {
-    artist: '8KAYS',
-    stage: [
-      'Quantum Valley',
-    ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: '999999999',
-    stage: [
-      'Neon Garden',
+    name: 'METRIK B2B GRAFIX',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'A HUNDRED DRUMS',
-    stage: [
-      'Basspod',
+    name: 'MIANE',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ABANA',
-    stage: [
-      'Stereo Bloom',
+    name: 'MICHAEL BIBI',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ACRAZE B2B NOIZU',
-    stage: [
-      'Stereo Bloom',
+    name: 'MIDNIGHT TYRANNOSAURUS',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ADRENALIZE',
-    stage: [
-      'Wasteland',
+    name: 'MIKE DUNN',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ANDEN',
-    stage: [
-      'Quantum Valley',
+    name: 'MISS DRE',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ARMIN VAN BUUREN',
-    stage: [
-      'Kinetic Field',
+    name: 'MOCHAKK',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BAGGI',
-    stage: [
-      'Bionic Jungle',
+    name: 'MODAPIT',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BEN NICKY PRESENTS XTREME B2B SUB ZERO PROJECT',
-    stage: [
-      'Wasteland',
+    name: 'MOODY GOOD (THROWBACK SET)',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BENSLEY B2B JUSTIN HAWKES',
-    stage: [
-      'Basspod',
+    name: 'MORTEN',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BLACK TIGER SEX MACHINE',
-    stage: [
-      'Basspod',
+    name: 'MROTEK',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BLANKE',
-    stage: [
-      'Circuit Grounds',
+    name: 'MS. MADA B2B BAKKE',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BOOGIE T',
-    stage: [
-      'Basspod',
+    name: 'NALA',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BOOGIE T B2B DIRT MONKEY',
-    stage: [
-      'Cosmic Meadow',
+    name: 'NETSKY',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BORGORE B2B LEVEL UP',
-    stage: [
-      'Basspod',
+    name: 'NOIZU',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'BRENNAN HEART',
-    stage: [
-      'Wasteland',
+    name: 'NOSTALGIX',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CAPOZZI',
-    stage: [
-      'Cosmic Meadow',
+    name: 'ODD MOB',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CHRIS LORENZO',
-    stage: [
-      'Cosmic Meadow',
+    name: 'OMAR SANTANA',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CID',
-    stage: [
-      'Stereo Bloom',
+    name: 'PACO OSUNA',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'CODE BLACK',
-    stage: [
-      'Wasteland',
+    name: 'PATRICK TOPPING',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'D-STURB',
-    stage: [
-      'Wasteland',
+    name: 'PAUL DENTON',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DEADLY GUNS',
-    stage: [
-      'Wasteland',
+    name: 'PAULINE HERR',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DEEPER PURPOSE',
-    stage: [
-      'Stereo Bloom',
+    name: 'PEEKABOO',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DENNIS FERRER',
-    stage: [
-      'Bionic Jungle',
+    name: 'PRETTY PINK',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DEORRO',
-    stage: [
-      'Circuit Grounds',
+    name: 'RAY VOLPE',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DIMENSION',
-    stage: [
-      'Basspod',
+    name: 'REAPER',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DJ MINX',
-    stage: [
-      'Bionic Jungle',
+    name: 'REBELION',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'DOMBRESKY',
-    stage: [
-      'Kinetic Field',
-      'Stereo Bloom',
+    name: 'REINIER ZONNEVELD (LIVE)',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ELLEN ALLIEN',
-    stage: [
-      'Neon Garden',
+    name: 'RIOT TEN B2B JESSICA AUDIFFRED',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ENAMOUR',
-    stage: [
-      'Quantum Valley',
+    name: 'ROB GEE 30 YEARS',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'EXCISION',
-    stage: [
-      'Circuit Grounds',
+    name: 'SAID THE SKY',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FRAME (DECLAN JAMES & DECODER)',
-    stage: [
-      'Neon Garden',
+    name: 'SALUTE',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FRANKY WAH',
-    stage: [
-      'Quantum Valley',
+    name: 'SAN PACHO',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'FRED EVERYTHING',
-    stage: [
-      'Bionic Jungle',
+    name: 'SAYMYNAME',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GAMMER B2B TWEEKACORE',
-    stage: [
-      'Wasteland',
+    name: 'SHEI',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GARETH EMERY',
-    stage: [
-      'Kinetic Field',
+    name: 'SHERELLE',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GENTLEMENS CLUB',
-    stage: [
-      'Basspod',
+    name: 'SHIP WREK',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GOODBOYS',
-    stage: [
-      'Stereo Bloom',
+    name: 'SIDEPIECE',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'GRIZTRONICS',
-    stage: [
-      'Basspod',
+    name: 'SLANDER PRESENTS BEFORE DAWN',
+    stages: [],
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
-    days: [
-      'sunday',
-    ],
   },
   {
-    artist: 'HANNAH WANTS',
-    stage: [
-      'Stereo Bloom',
+    name: 'SOFTEST HARD',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'HOL!',
-    stage: [
-      'Basspod',
+    name: 'SONNY FODERA',
+    stages: [
+      'cosmicMEADOW',
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'I HATE MODELS',
-    stage: [
-      'Neon Garden',
+    name: 'SOREN',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'IMANU',
-    stage: [
-      'Basspod',
+    name: 'SOUND RUSH',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'J. WORRA',
-    stage: [
-      'Cosmic Meadow',
+    name: 'SPACE LACES',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JADED',
-    stage: [
-      'Stereo Bloom',
+    name: 'SPACE MOTION',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JAMES HYPE',
-    stage: [
-      'Kinetic Field',
-      'Cosmic Meadow',
-      'Stereo Bloom',
+    name: 'SPENCER BROWN',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'friday',
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JEFF MILLS',
-    stage: [
-      'Neon Garden',
+    name: 'SUAE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'JOSHWA',
-    stage: [
-      'Stereo Bloom',
+    name: 'SUB ZERO PROJECT',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KALEENA ZANDERS',
-    stage: [
-      'Stereo Bloom',
+    name: 'SUBTRONICS',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'KASKADE REDUX',
-    stage: [
-      'Kinetic Field',
+    name: 'SULLIVAN KING',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LANE 8',
-    stage: [
-      'Quantum Valley',
+    name: 'SULLIVAN KING B2B KAI WACHI',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LE YOUTH',
-    stage: [
-      'Quantum Valley',
+    name: 'SULTAN + SHEPARD',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LEVENKHAN',
-    stage: [
-      'Wasteland',
+    name: 'SVDDEN DEATH: INTO THE INFERNO',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'LOUD LUXURY',
-    stage: [
-      'Kinetic Field',
+    name: 'TCHAMI B2B AC SLATER',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MARSHMELLO B2B SVDDEN DEATH',
-    stage: [
-      'Circuit Grounds',
+    name: 'THE MARTINEZ BROTHERS',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MARTEN HØRGER',
-    stage: [
-      'Kinetic Field',
+    name: 'THINGS YOU SAY',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MARTIN GARRIX',
-    stage: [
-      'Kinetic Field',
+    name: 'TIËSTO',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MIDNIGHT TYRANNOSAURUS',
-    stage: [
-      'Basspod',
+    name: 'TOBEHONEST',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'MROTEK',
-    stage: [
-      'Wasteland',
+    name: 'TODD TERRY',
+    stages: [
+      'bionicJUNGLE',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'PEEKABOO',
-    stage: [
-      'Circuit Grounds',
+    name: 'TOM & COLLINS',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'REINIER ZONNEVELD (LIVE)',
-    stage: [
-      'Neon Garden',
+    name: 'TOWNSHIP REBELLION',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'ROB GEE 30 YEARS',
-    stage: [
-      'Wasteland',
+    name: 'TRIODE',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SAYMYNAME',
-    stage: [
-      'Circuit Grounds',
+    name: 'TSU NAMI',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SHIP WREK',
-    stage: [
-      'Kinetic Field',
-    ],
-    days: [
-      'sunday',
+    name: 'VALENTINO KHAN',
+    stages: [
+      'kineticFIELD',
     ],
-  },
-  {
-    artist: 'SLANDER PRESENTS BEFORE DAWN',
-    stage: [],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SONNY FODERA',
-    stage: [
-      'Cosmic Meadow',
-      'Stereo Bloom',
+    name: 'VINI VICI',
+    stages: [
+      'circuitGROUNDS',
+      'quantumVALLEY',
     ],
-    days: [
-      'saturday',
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SOREN',
-    stage: [
-      'Wasteland',
+    name: 'WARFACE',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SPACE MOTION',
-    stage: [
-      'Quantum Valley',
+    name: 'WARFACE B2B D-STURB',
+    stages: [
+      'wasteLAND',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'SULTAN + SHEPARD',
-    stage: [
-      'Quantum Valley',
+    name: 'WAX MOTIF',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TCHAMI B2B AC SLATER',
-    stage: [
-      'Cosmic Meadow',
+    name: 'WESTEND',
+    stages: [
+      'stereoBLOOM',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'THINGS YOU SAY',
-    stage: [
-      'Bionic Jungle',
+    name: 'WILL ATKINSON',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TOBEHONEST',
-    stage: [
-      'Cosmic Meadow',
+    name: 'WILL CLARKE',
+    stages: [
+      'neonGARDEN',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TODD TERRY',
-    stage: [
-      'Bionic Jungle',
+    name: 'WOOLI',
+    stages: [
+      'bassPOD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TOWNSHIP REBELLION',
-    stage: [
-      'Quantum Valley',
+    name: 'YELLOW CLAW',
+    stages: [
+      'circuitGROUNDS',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'TSU NAMI',
-    stage: [
-      'Circuit Grounds',
+    name: 'YETEP',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-20T03:00:00.000Z',
+        end: '2023-05-20T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WAX MOTIF',
-    stage: [
-      'Cosmic Meadow',
+    name: 'YOSHI & RAZNER',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'WILL CLARKE',
-    stage: [
-      'Neon Garden',
+    name: 'YOTTO',
+    stages: [
+      'quantumVALLEY',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-22T03:00:00.000Z',
+        end: '2023-05-22T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'YELLOW CLAW',
-    stage: [
-      'Circuit Grounds',
+    name: 'ZEDD',
+    stages: [
+      'kineticFIELD',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
   {
-    artist: 'YOTTO',
-    stage: [
-      'Quantum Valley',
+    name: 'ZEDS DEAD B2B CHASE & STATUS',
+    stages: [
+      'cosmicMEADOW',
     ],
-    days: [
-      'sunday',
+    sets: [
+      {
+        start: '2023-05-21T03:00:00.000Z',
+        end: '2023-05-21T04:00:00.000Z',
+      },
     ],
   },
 ];

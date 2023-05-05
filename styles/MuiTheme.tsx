@@ -44,7 +44,7 @@ const theme = createTheme({
     info: {
       main: '#FBFF12',
     },
-    divider: '#ffcc48',
+    divider: '#FF206E',
   },
   components: {
     MuiButton: {

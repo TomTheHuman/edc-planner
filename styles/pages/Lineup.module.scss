@@ -26,34 +26,34 @@
 
 /* Legend Styles */
 
+#info {
+  gap: $space-large;
+}
+
 #keys {
-  padding: $space-medium;
+  padding: $space-large;
   border-radius: $br-medium;
-  background-color: $white-opac-1;
+  background-color: $white-opac-2;
 }
 
 .key {
   display: flex;
   align-items: center;
   gap: $space-medium;
-
-  #emoji {
-    font-size: 1.2rem;
-  }
 }
 
 /* Artist Styles */
 
-#artists {
+#acts {
   gap: $space-large;
 }
 
-#artist {
+#act {
   display: flex;
   flex-direction: column;
   padding: $space-medium;
   border-radius: $br-medium;
-  background-color: $white-opac-1;
+  background-color: $white-opac-2;
   gap: $space-medium;
 }
 
